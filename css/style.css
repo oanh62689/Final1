@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+	color:#666666; margin:0; font-family: "Poppins", sans-serif; font-size: 16px
+}
+header{
+	width: 100%; height: 60px; 
+}
+
+.logo{
+	width: 15%; padding: 25px
+}
+.menu{
+	padding-top: 20px
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex; text-align: center
+}
+.menu ul li a{
+	padding:3px 20px; text-decoration: none; font-size: 15px; color: #454545; border-radius: 20px; display:block
+}
+.menu ul li a:hover{
+	background-color:darkred; color:white
+}
+.menu ul li {
+	position: relative
+}
+.menu ul li .dropdown{
+	position:absolute; padding:0; margin: 0; font-size: 13px; list-style: none;display: flex;flex-direction: column; width: 190px; left:0; top: 100%;  background-color:rgba(124,0,2,0.3); display: none; box-shadow: 5px 5px darkred
+}
+.menu ul li .dropdown li a{
+	display: block
+}
+.menu ul li .dropdown li{
+	border-bottom: 1px dotted white
+}
+.menu ul li .dropdown li:hover{
+	color: aqua
+}
+.menu ul li:hover .dropdown{
+	display: block
+}
+
+
+.tym{
+	padding: 20px;  
+}
+.tym a{
+	margin-left: 3px; padding: 4px 4px; width: 10%;
+}
+.caption{
+	width:20%; text-align: left; position: absolute; left:10%; top: 35%
+}
+.caption h1{ 
+	font-size: 50px; color: rgba(92,9,11,1.00); 
+}
+.caption p{
+	color: white; font-size: 36px; 
+}
+.banner{z-index:2}
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:47%;}
+#slider .owl-dots .owl-dot span {
+      width: 8px;
+      height: 8px; 	
+}
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+.main{
+	width: 100%; min-height: 400px
+}
+.text-do{
+	color:#970405
+}
+.vien{
+	border: 1px solid #FD0004; padding: 10px; border-radius: 10px; position: relative; overflow: hidden
+}
+.icon{
+	position: absolute; width: 80%; height: 45px; left: 12%; top: -25%; display: flex; justify-content: space-around; transition: all 1s
+}
+.icon a{
+	width: 45px; height: 45px; background-color: rgba(114,111,111,0.74); border-radius: 50%; display: flex; justify-content: center; align-items: center; text-decoration: none; color: #7B0002
+}
+.icon a:hover{
+	background-color: #840002; color: white
+}
+.vien:hover .icon{
+	top: 40%; 
+}
+main{width: 100%; min-height: 500px}
+#feature{width: 100%; min-height: 600px; background-image: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: center center}
+.pt-30{padding-top: 30px}
+
+.gach-chan{border-bottom: 2px solid #8D0002 }
+
+.vien-trang{
+	width:200px; height:130px; border: 2px solid #FFFFFF; padding: 10px; text-align: center
+}
+.vien-trang a{text-decoration: none; color:#8D0002 }
+.vien-trang a:hover{color: white}
+.trong3{
+	text-decoration-line:underline; text-decoration-color: rgba(133,0,2,1.00); text-align: center}
+.khung1{ display:flex; text-align: center; }
+.text{
+	padding: 55px
+}
+.banner3{
+	width: 100%; height: 100%; position: relative}
+.trong4{
+	position:absolute; left: 47%; top: 3%; text-decoration-line:underline; text-decoration-color: rgba(133,0,2,1.00); text-align: center}
+.vien3{
+	position:absolute;width: 300px; height: 100%; border: 1px solid #000000; padding: 100px;; text-align: center; margin: 130px 10px; box-shadow: 2px 2px
+}
+.formm{
+	position: absolute; left:39%; top: 24%; border: 1px #848484; padding: 20px; box-shadow: gray 5px 5px 5px
+}
+.form-control{ 
+padding: 8px; margin: 8px 0; 
+}
+.formm{position:absolute}
+#contac{
+	width: 100%; min-height: 600px; background-image: url("../images/Banner2.png"); background-repeat: no-repeat; background-size: cover; background-position: center center
+}
+.shadow{border: 1px solid #DCDCDC; min-height: 300px; box-shadow: 3px 3px 3px gray; padding: 40px}
